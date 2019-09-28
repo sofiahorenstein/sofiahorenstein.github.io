@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Activity 1: Basic HTML Bio</title>
+    <title>Sofia Horenstein Bio</title>
+    <style>
+            /*
+              NOTE: Commenting is a bit different in CSS. 
+              They start with forward-slash + asterisk 
+              and end with back-slash + asterisk.
+              */
+          ​
+            /* h1 heading tag */
+            h1 {
+              /* Put a 15-pixel margin at the bottom of the heading. */
+              margin-bottom: 15px;
+              /* Change the size of your font to 60 pixels high. */
+              font-size: 60px;
+              /* This will color the heading font white. */
+              color: white;
+              /* Align the text to the center of its enclosing element (e.g. div). */
+              text-align: center;
+              /* Underline the text. */
+              text-decoration: underline;
+              /* The background of the heading element will now be black. */
+              background-color: orange;
+            }
+          ​
+            /* h2 heading tags */
+            h2 {
+              /* Put a 15-pixel margin at the top of all h2 headings. */
+              margin-top: 15px;
+              margin-bottom: 15px;
+              font-size: 40px;
+              text-align: center;
+            }
+          ​
+            /* h3 heading tags */
+            h3 {
+              margin-top: 15px;
+              font-size: 20px;
+              text-align: center;
+            }
+          ​
+            /* All img tags */
+            img {
+              /* 
+                Center a block element in the middle of its enclosing tag.
+                When you use the "auto" rule on both left and right margins, 
+                your browser will do the math necessary to center a block element.
+                */
+              margin-left: auto;
+              margin-right: auto;
+              /* Block display (more on this later) */
+              display: block;
+            }
+     </style>
 </head>
 <body>
-<a target="_blank" href="applepicking.jpg">
-<img src= "applepicking.jpg" width="200" height="240" alt="pic">
-</a>
 
 <h1>Sofia Horenstein</h1>
 <h2>Data Science Student at Rutgers University</h2>
 <h3>Email: horenstein.sofia@gmail.com</h3>
 <h3>Github: https://github.com/sofiahorenstein</h3>
 <h3>LinkedIn: https://www.linkedin.com/in/sofia-horenstein-4a1131a7/</h3>
+
+<a target="_blank" href="applepicking.jpg">
+        <img src= "applepicking.jpg" width="200" height="240" alt="pic">
+</a>
 
 <table border="1">
         <thead>
@@ -39,14 +93,7 @@
             <td>Cooking mama</td>
           </tr>
         </tbody>
-      </table>
-
-
-
-
-
-
-
+</table>
 </body>
 </html>
 
